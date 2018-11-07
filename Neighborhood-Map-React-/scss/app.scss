@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+//Reseting CSS
+* {
+  box-sizing: inherit;
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  box-sizing: border-box;
+  color: #fff;
+  height: 100%;
+  font-family: Raleway, sans-seri
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+//Sets the map height
+#map-container {
+  width: 100%;
+  height: 89.5vh;
+  position: absolute;
+  right: 0;
+  top: 6rem;
+  color: #000;
+  z-index: 0; //Ensuring a sidebar can be displayed
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  top: 0;
+  margin-top: 0;
+  height: 6rem;
+  z-index: 1;
+  background: #000;
+  -webkit-box-shadow: 1px 1px 1px 8px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 1px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 1px 8px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+
+  div {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .veggieburgers {
+    width: 42px;
+    height: 60px;
+    float: left;
+
+    -webkit-box-shadow: 1px 1px 1px 8px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 1px 1px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 1px 8px rgba(0, 0, 0, 0.5);
+
+    div {
+      width: 42px !important;
+      height: 4px !important;
+      background-color: white;
+      margin: 7px 0;
+    }
+  }
+
+  .sideBar {
+    height: calc(100% - 60px);
+    width: 250px;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    overflow-x: hidden;
+
+    .form {
+      margin-top: 5px;
+      width: 100%;
+      height: auto;
+
+      .input {
+        padding: 10px 12px;
+        width: 100%;
+        border: 0px;
+        outline: none;
+      }
+    }
+
+    ul {
+      list-style: none;
+
+      li {
+        display: flex;
+        -webkit-display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: #0f0f0f;
+        padding: 10px;
+
+        a {
+          color: #fff;
+          text-align: center;
+          text-decoration: none;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+#marker {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6{
+    font-size: 2.3rem;
+  }
+  font-size: 1.8rem;
+}
+
+
+
+@media screen and (max-width: 400px){
+  header h1 {
+    font-size: 2.5rem;
+  }
+}
+

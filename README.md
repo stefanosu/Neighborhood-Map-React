@@ -1,5 +1,5 @@
 # NYC Eats / Neighborhood Map (React)
-
+ 
 This is my final Front-end Nanodegree Project by Udacity. This project is coded in ReactJS.
 
 ## Purpose ##

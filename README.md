@@ -18,7 +18,7 @@ This application uses The Google maps API render the map and to display the mark
 
 ### Foursquare
 
-In this application I also used Foursquare APT to get information about the locations.
+In this application I also used Foursquare API to get information about the locations.
 
 
 Glad to have participated in Udacity's Front-end NanoDegree Program

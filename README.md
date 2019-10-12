@@ -24,5 +24,3 @@ In this application I also used Foursquare API to get information about the loca
 Glad to have participated in Udacity's Front-end NanoDegree Program
 
 
-**Resources used were Yahya Elharony neighborhood map wallkthrough** 
-

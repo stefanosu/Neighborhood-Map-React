@@ -10,8 +10,6 @@ This app's functionality is to locate my favorite eats in NYC by map. It also in
 
 To install you can either clone by using **git clone** or download a zip file. Afterwards in the terminal you should use **npm install** to download the dependencies and then to run the app use **npm start** .
 
-Please take a look at the []().
-
 ### Google Maps
 
 This application uses The Google maps API render the map and to display the markers.

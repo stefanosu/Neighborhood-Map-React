@@ -1,4 +1,0 @@
-[build]
-  command = "npm run build"
-  publish=" Neighborhood-Map-React/build"
-  base = "Neighborhood-Map-React"
